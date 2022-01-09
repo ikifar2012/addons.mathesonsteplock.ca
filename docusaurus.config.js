@@ -72,19 +72,24 @@ const config = {
                 label: 'Installation',
                 to: '/docs/installation',
               },
+              {
+                label: 'Remote Backup',
+                to: '/docs/addons/remote-backup/basic-config'
+              },
             ],
           },
           {
             title: 'Community',
             items: [
               {
+                label: 'DrZzs Discord',
+                href: 'https://discord.me/drzzs',
+              },
+              {
                 label: 'What are we fixing today, Discord',
                 href: 'https://discord.gg/Uhmhu3B',
               },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/MathesonStep',
-              },
+
             ],
           },
           {
@@ -93,6 +98,10 @@ const config = {
               {
                 label: 'GitHub',
                 href: 'https://github.com/ikifar2012',
+              },
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/MathesonStep',
               },
             ],
           },
