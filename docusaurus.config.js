@@ -46,7 +46,7 @@ const config = {
         title: "Matheson's HA Addons",
         logo: {
           alt: "Matheson's HA Addon's Logo",
-          src: 'img/logo.ping',
+          src: 'img/logo.png',
         },
         items: [
           {
