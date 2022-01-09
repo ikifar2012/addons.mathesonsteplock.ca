@@ -24,7 +24,16 @@ const sidebars = {
       label: "Remote Backup",
       items: [
         'addons/remote-backup/basic-config',
-        'addons/remote-backup/resources'
+        'addons/remote-backup/blueprints-automations',
+        'addons/remote-backup/resources',
+      ]
+    },
+    {
+      type: 'category',
+      label: "Tasmota Device Manager",
+      items: [
+        'addons/tdm/basic-config',
+        'addons/tdm/resources',
       ]
     },
   ]

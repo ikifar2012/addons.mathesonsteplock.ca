@@ -4,3 +4,4 @@ sidebar_label: "Blueprints and Automation's"
 ---
 
 # Blueprints and Automation's
+### Coming Soon
