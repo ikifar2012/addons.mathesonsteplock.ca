@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.png',
   organizationName: 'ikifar2012', // Usually your GitHub org/user name.
   projectName: 'addons.mathesonsteplock.ca', // Usually your repo name.
 
