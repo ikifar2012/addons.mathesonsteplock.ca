@@ -76,6 +76,10 @@ const config = {
                 label: 'Remote Backup',
                 to: '/docs/addons/remote-backup/basic-config'
               },
+              {
+                label: 'Tasmota Device Manager',
+                to: '/docs/addons/tdm/basic-config'
+              },
             ],
           },
           {
@@ -86,7 +90,7 @@ const config = {
                 href: 'https://discord.me/drzzs',
               },
               {
-                label: 'What are we fixing today, Discord',
+                label: 'What are we fixing today? Discord',
                 href: 'https://discord.gg/Uhmhu3B',
               },
 
