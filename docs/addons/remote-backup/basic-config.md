@@ -1,5 +1,6 @@
 ---
-sidebar_position: 2
+title: "Remote Backup: Configuration"
+sidebar_label: "Basic Configuration"
 ---
 
 # Basic Configuration

@@ -53,7 +53,7 @@ const config = {
             type: 'doc',
             docId: 'installation',
             position: 'left',
-            label: 'Installation',
+            label: 'Docs',
           },
           {
             href: 'https://mathesonsteplock.ca',
