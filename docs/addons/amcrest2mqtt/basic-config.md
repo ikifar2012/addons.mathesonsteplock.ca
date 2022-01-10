@@ -47,3 +47,5 @@ home_assistant_prefix: ''
 |`home_assistant_prefix`|No|Prefix used by Home Assistant (defaults to 'homeassistant')|
 |`storage_poll_interval`|No|How often to fetch storage data (in seconds) (defaults to 3600)|
 |`device_name`|No|Override the default device name used in the Amcrest app|
+
+For additional information please refer to the [amcrest2mqtt documentation](https://github.com/dchesterton/amcrest2mqtt).
