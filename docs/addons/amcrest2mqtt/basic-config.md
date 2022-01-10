@@ -9,7 +9,7 @@ Below is an example configuration:
 ```yaml
 amcrest_host: '192.168.0.x'
 amcrest_port: '80'
-amcrest_username: admin
+amcrest_username: 'admin'
 amcrest_password: 'my_super_secure_passw0rd'
 storage_poll_interval: '3600'
 device_name: ''
