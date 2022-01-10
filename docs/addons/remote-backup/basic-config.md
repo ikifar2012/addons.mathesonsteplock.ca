@@ -5,7 +5,13 @@ sidebar_label: "Basic Configuration"
 
 # Basic Configuration
 
-Below is an example configuration:
+Use the button below to access the addon configuration page:
+
+[![Open your Home Assistant instance and show the dashboard of a Supervisor add-on.](https://my.home-assistant.io/badges/supervisor_addon.svg)](https://my.home-assistant.io/redirect/supervisor_addon/?addon=3490a758_remote_backup)
+
+*If the above link does not work ensure you have completed the [Installation](/docs/installation)*
+
+### Example Configuration
 
 ```yaml
 ssh_enabled: true
