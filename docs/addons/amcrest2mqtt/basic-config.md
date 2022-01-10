@@ -10,7 +10,7 @@ Use the button below to access the addon configuration page:
 
 *If the above link does not work ensure you have completed the [Installation](/docs/installation)*
 
-Below is an example configuration:
+### Example Configuration
 
 ```yaml
 amcrest_host: '192.168.0.x'
