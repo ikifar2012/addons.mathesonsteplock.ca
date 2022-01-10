@@ -21,6 +21,13 @@ const sidebars = {
     'installation',
     {
       type: 'category',
+      label: 'amcrest2mqtt',
+      items: [
+        'addons/amcrest2mqtt/basic-config',
+      ]
+    },
+    {
+      type: 'category',
       label: "Remote Backup",
       items: [
         'addons/remote-backup/basic-config',
