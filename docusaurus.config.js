@@ -67,6 +67,10 @@ const config = {
                 to: '/docs/installation',
               },
               {
+                label: 'amcrest2mqtt',
+                to: '/docs/addons/amcrest2mqtt/basic-config'
+              },
+              {
                 label: 'Remote Backup',
                 to: '/docs/addons/remote-backup/basic-config'
               },
