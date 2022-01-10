@@ -3,6 +3,8 @@ title: "amcrest2mqtt: Configuration"
 sidebar_label: "Basic Configuration"
 ---
 # Basic Configuration
+Assuming you already have the addon repository installed, simply use the button below to access the addon install/configuration page:
+[![Open your Home Assistant instance and show the dashboard of a Supervisor add-on.](https://my.home-assistant.io/badges/supervisor_addon.svg)](https://my.home-assistant.io/redirect/supervisor_addon/?addon=3490a758_amcrest2mqtt-addon)
 
 Below is an example configuration:
 
