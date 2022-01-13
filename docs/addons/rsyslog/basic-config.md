@@ -11,6 +11,8 @@ Use the button below to access the addon configuration page:
 
 *If the above link does not work ensure you have completed the [Installation](/docs/installation)*
 
+### Configuration Notes
+
 #### Simply just start the addon
 
 #### It will store logs in /share/rsyslog/logs which can be accessed through SAMBA
