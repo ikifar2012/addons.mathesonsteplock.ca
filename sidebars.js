@@ -37,6 +37,13 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: "rsyslog",
+      items: [
+        'addons/rsyslog/basic-config',
+      ]
+    },
+    {
+      type: 'category',
       label: "Tasmota Device Manager",
       items: [
         'addons/tdm/basic-config',

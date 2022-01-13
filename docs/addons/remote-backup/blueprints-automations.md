@@ -1,5 +1,5 @@
 ---
-title: "Remote Backup: Blueprints and Automation's"
+title: "Remote Backup | Blueprints and Automation's"
 sidebar_label: "Blueprints and Automation's"
 ---
 
