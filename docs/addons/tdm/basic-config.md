@@ -1,5 +1,5 @@
 ---
-title: "Tasmota Device Manager: Configuration"
+title: "Tasmota Device Manager | Configuration"
 sidebar_label: "Basic Configuration"
 ---
 
