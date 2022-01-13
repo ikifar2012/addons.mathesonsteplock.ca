@@ -1,5 +1,5 @@
 ---
-title: "Remote Backup: Configuration"
+title: "Remote Backup | Basic Configuration"
 sidebar_label: "Basic Configuration"
 ---
 

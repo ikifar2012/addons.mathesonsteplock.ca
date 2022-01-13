@@ -1,5 +1,5 @@
 ---
-title: "amcrest2mqtt: Configuration"
+title: "amcrest2mqtt | Basic Configuration"
 sidebar_label: "Basic Configuration"
 ---
 # Basic Configuration

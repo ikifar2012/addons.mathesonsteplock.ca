@@ -1,5 +1,5 @@
 ---
-title: "Remote Backup: Helpful Resources"
+title: "Remote Backup | Helpful Resources"
 sidebar_label: "Helpful Resources"
 ---
 
