@@ -4,42 +4,41 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Buy me... Something',
+    icon: (<a href="https://www.buymeacoffee.com/mathesonstep"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me Something&emoji=🎉&slug=mathesonstep&button_colour=25c2a0&font_colour=000000&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00"/></a>),
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        I don't drink coffee... but you can still donate if you appreciate the stuff I do.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Add the Repository',
+    icon: (<a href="https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fikifar2012%2Fha-addons" target="_blank"><img src="https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg" alt="Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled." /></a>),
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Click the button above to add the repository to your Home Assistant instance.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    title: 'DigitalOcean Referral',
+    icon: (<a href="https://www.digitalocean.com/?refcode=ab209243eec5&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%203.svg" alt="DigitalOcean Referral Badge" /></a>),
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        If you can't support me monetarily, you can still help me pay server costs by using my DigitalOcean referral link.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({icon, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} alt={title} />
+        <div className={styles.icon}>
+        {icon}
+       </div>
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
