@@ -25,4 +25,4 @@ action:
       addon: 3490a758_remote_backup
 mode: single
 ```
-**example by [@Lockszmith-GH](https://github.com/Lockszmith-GH)**
+**Example by [@Lockszmith-GH](https://github.com/Lockszmith-GH)**
