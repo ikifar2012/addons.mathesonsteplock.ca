@@ -41,6 +41,15 @@ const config = {
         disableSwitch: false,
         respectPrefersColorScheme: true,
     },
+    algolia: {
+      // The application ID provided by Algolia
+      appId: '0V42FXKATS',
+
+      // Public API key: it is safe to commit it
+      apiKey: '3a8ab08d295439fee1b6ee84ac10f2fd',
+
+      indexName: 'mathesonsteplock',
+    },
       navbar: {
         title: "Matheson's HA Addons",
         logo: {
