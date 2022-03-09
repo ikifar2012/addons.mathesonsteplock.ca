@@ -12,7 +12,7 @@ Use the button below to access the addon configuration page:
 
 ### Example Configuration
 
-Please note the amcrest2mqtt add-on requires the MQTT broker add-on to be installed.
+*Please note the amcrest2mqtt add-on requires the MQTT broker add-on to be installed and configured before use.*
 
 ```yaml
 amcrest_host: '192.168.0.x'
