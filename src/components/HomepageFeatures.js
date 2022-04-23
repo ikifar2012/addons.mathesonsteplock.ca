@@ -5,7 +5,7 @@ import styles from './HomepageFeatures.module.css';
 const FeatureList = [
   {
     title: 'Buy me... Something',
-    icon: (<a href="https://www.buymeacoffee.com/mathesonstep"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me Something&emoji=🎉&slug=mathesonstep&button_colour=25c2a0&font_colour=000000&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00"/></a>),
+    icon: (<a href='https://ko-fi.com/mathesonsteplock' target='_blank'><img height='45' src='https://cdn.ko-fi.com/cdn/kofi4.png?v=3' border='0' alt='Support me on ko-fi.com' /></a>),
     description: (
       <>
         I don't drink coffee... but you can still donate if you appreciate the stuff I do.
