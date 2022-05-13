@@ -23,7 +23,7 @@ ssh_port: 22
 ssh_user: username
 ssh_key: keyfile
 ssh_host_key_algorithms: ''
-exclude_folders: 'media, backup'
+exclude_folders: 'media, share'
 exclude_addons: 'core_ssh, core_mosquitto'
 remote_directory: /path/to/your/backup/dir
 zip_password: ''
