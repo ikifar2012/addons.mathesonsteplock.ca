@@ -31,8 +31,8 @@ keep_local_backup: '3'
 rsync_enabled: false
 rsync_verbose: false
 rsync_host: ''
-rsync_rootfolder: hassio-sync
-rsync_exclude: keyfile, .tdm, .cache, *.tar, home-assistant*.*, .mozilla, .vnc
+rsync_rootfolder: 'hassio-sync'
+rsync_exclude: 'keyfile, .tdm, .cache, *.tar, home-assistant*.*, .mozilla, .vnc'
 rsync_user: ''
 rsync_password: ''
 ```
@@ -50,7 +50,7 @@ rsync_password: ''
 |`ssh_user`|Yes|The username used for `SCP`|
 |`ssh_key`|Yes|The filename of the SSH key, this must be located in the `ssl` directory of Home Assistant which can be accessed through SAMBA under the share name `ssl`|
 |`ssh_host_key_algorithms`|No|Used for enabling legacy algorithms|
-|`exclude_folders`|No|A comma separated list of folders to exclude from the backup. Valid folders include: `addons/local homeassistant media share ssl`|
+|`exclude_folders`|No|A comma separated list of folders to exclude from the backup. Valid folders include: `addons/local, homeassistant, media, share, ssl`|
 |`exclude_addons`|No|A comma separated list of addons to exclude from the backup, based on addon slug|
 |`remote_directory`|Yes|The destination directory where the snapshots will be placed|
 |`zip_password`|No|If set then the backup will be contained in a password protected zip file|
