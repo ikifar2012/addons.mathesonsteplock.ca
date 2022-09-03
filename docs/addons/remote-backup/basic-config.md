@@ -55,7 +55,7 @@ rsync_enabled: false
 |`rsync_enabled`|No|Allows you to enable or disable the rsync function|
 |`rsync_rootfolder`|No*|The root folder of the rsync server|
 |`rsync_exclude`|No|A comma separated list of files or folders to exclude from the rsync transfer|
-*) option is only required if the respective protocol is enabled.
+(*) option is only required if the respective protocol is enabled.
 
 ## Rclone (Experimental)
 
