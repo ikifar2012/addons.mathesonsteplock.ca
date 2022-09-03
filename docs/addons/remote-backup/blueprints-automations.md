@@ -27,3 +27,21 @@ mode: single
 ```
 
 **Example by [@Lockszmith-GH](https://github.com/Lockszmith-GH)**
+
+### Create persistent notification if backup fails
+
+```yaml
+alias: Backup check
+description: This automation creates an persistent notification in case the backup fails.
+trigger:
+  - platform: event
+    event_type: remote_backup_status
+    event_data:
+      result: error
+action:
+  - service: persistent_notification.create
+    data:
+      message: Backup failed
+mode: single
+```
+
