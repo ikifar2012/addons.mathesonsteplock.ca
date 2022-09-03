@@ -73,11 +73,12 @@ key = xxxxxxxxxxx
 |Parameter|Required|Description|
 |---------|--------|-----------|
 |`rclone_enabled`|Yes|Allows you to disable or enable the rclone function|
-|`rclone_remote_host`|Yes|The name of the remote specified in rsync.conf, example: `backblaze`|
+|`rclone_remote_host`|No*|The name of the remote specified in rsync.conf, example: `backblaze`|
 |`rclone_copy`|No|Enables rclone copy mode|
 |`rclone_sync`|No|Enables rclone sync mode|
 |`rclone_restore`|No|Restores files in remote to a date stamped folder in `/backup/`|
 |`rclone_remote_directory`|No*|The path of the remote directory which the add-on will save to, including bucket name if using a service like backblaze|
+(*) option is only required if the respective protocol is enabled.
 
 # Persistent Notification
 
