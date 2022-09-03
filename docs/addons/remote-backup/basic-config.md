@@ -73,6 +73,7 @@ key = xxxxxxxxxxx
 |Parameter|Required|Description|
 |---------|--------|-----------|
 |`rclone_enabled`|Yes|Allows you to disable or enable the rclone function|
+|`rclone_remote_host`|Yes|The name of the remote specified in rsync.conf, example: `backblaze`|
 |`rclone_copy`|No|Enables rclone copy mode|
 |`rclone_sync`|No|Enables rclone sync mode|
 |`rclone_restore`|No|Restores files in remote to a date stamped folder in `/backup/`|
