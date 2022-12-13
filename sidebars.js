@@ -33,6 +33,7 @@ const sidebars = {
         'addons/remote-backup/basic-config',
         'addons/remote-backup/blueprints-automations',
         'addons/remote-backup/resources',
+        'addons/remote-backup/security',
       ]
     },
     {

@@ -10,4 +10,3 @@ For SSH and rsync operation it is recommend to add the public key of the remote 
 
 ## Key-based authentication
 It's recommended that you provide a private key in the `ssl` directory that can be used for authentication with the `remote_host` instead of using a `remote_password`. The public key is automatically generated.
-
