@@ -1,4 +1,4 @@
-// static/custom.js
+// static/js/custom.js
 
 document.addEventListener("DOMContentLoaded", function () {
   var navbar = document.querySelector(".navbar.navbar--fixed-top");
