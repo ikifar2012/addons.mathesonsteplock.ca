@@ -18,7 +18,7 @@
 
 /* Navbar Transparent */
   nav.navbar.navbar--fixed-top {
-    backdrop-filter: blur(0);
+    backdrop-filter: blur(0px);
     transition: backdrop-filter 0.3s ease; /* Add transition for smooth effect */
 }
 nav.navbar.navbar--fixed-top.scrolled {

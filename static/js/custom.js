@@ -6,10 +6,12 @@ document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener("scroll", function () {
     var scroll = window.scrollY;
 
-    if (scroll > 5) { // Adjust the scroll position at which the effect triggers
+    if (scroll > 20) { // Adjust the scroll position at which the effect triggers
       navbar.classList.add("scrolled");
+      console.log("scrolled");
     } else {
       navbar.classList.remove("scrolled");
+      console.log("not scrolled");
     }
   });
 });
