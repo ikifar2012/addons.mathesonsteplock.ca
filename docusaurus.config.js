@@ -3,19 +3,19 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-
+const baseUrl = '/';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Matheson's HA Addons",
   tagline: 'Click the button below to install',
   url: 'https://addons.mathesonsteplock.ca',
-  baseUrl: '/',
+  baseUrl: baseUrl,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo.png',
   organizationName: 'ikifar2012', // Usually your GitHub org/user name.
   projectName: 'addons.mathesonsteplock.ca', // Usually your repo name.
-  scripts: ['https://addons.mathesonsteplock.ca/static/js/custom.js'],
+  scripts: [`${baseUrl}js/custom.js`],
   presets: [
     [
       'classic',
