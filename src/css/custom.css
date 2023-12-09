@@ -18,9 +18,11 @@
 
 /* Navbar Transparent */
   nav.navbar.navbar--fixed-top {
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(0);
     transition: backdrop-filter 0.3s ease; /* Add transition for smooth effect */
-    background: var(--ifm-top-menu-color);
+}
+nav.navbar.navbar--fixed-top.scrolled {
+  backdrop-filter: blur(20px); /* Adjust the blur value as needed */
 }
 
 .docusaurus-highlight-code-line {
