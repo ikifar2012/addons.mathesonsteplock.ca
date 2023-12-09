@@ -16,6 +16,13 @@
   --ifm-code-font-size: 95%;
 }
 
+/* Navbar Transparent */
+  nav.navbar.navbar--fixed-top {
+    backdrop-filter: blur(20px);
+    transition: backdrop-filter 0.3s ease; /* Add transition for smooth effect */
+    background: var(--ifm-top-menu-color);
+}
+
 .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.1);
   display: block;
