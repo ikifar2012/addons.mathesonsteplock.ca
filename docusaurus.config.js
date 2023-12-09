@@ -15,7 +15,7 @@ const config = {
   favicon: 'img/logo.png',
   organizationName: 'ikifar2012', // Usually your GitHub org/user name.
   projectName: 'addons.mathesonsteplock.ca', // Usually your repo name.
-  scripts: [require.resolve('./static/js/custom.js')],
+  scripts: ['./static/js/custom.js'],
   presets: [
     [
       'classic',
