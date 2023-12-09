@@ -17,8 +17,11 @@
 }
 
 /* Navbar Transparent */
-.navbar {
-  background-color: transparent;
+@media (min-width: 1000px) {
+  nav.navbar.navbar--fixed-top {
+    backdrop-filter: blur(25px);
+    background: var(--ifm-top-menu-color);
+  }
 }
 
 .docusaurus-highlight-code-line {
