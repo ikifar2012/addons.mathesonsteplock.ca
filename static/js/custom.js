@@ -11,8 +11,8 @@ document.addEventListener("DOMContentLoaded", function () {
     // Adjust the scroll position and blur value as needed
     if (scroll > 0) {
       blurValue = 20;
+      navbar.style.backdropFilter = "blur(" + blurValue + "px)";
     }
 
-    navbar.style.backdropFilter = "blur(" + blurValue + "px)";
   });
 });
