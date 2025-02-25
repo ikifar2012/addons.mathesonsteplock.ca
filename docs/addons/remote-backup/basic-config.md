@@ -19,7 +19,8 @@ remote_port: 22
 remote_user: username
 remote_key: keyfile
 backup_friendly_name: true
-backup_custom_prefix: Automated backup
+backup_custom_prefix: Automated_backup
+backup_custom_delimiter: _
 backup_exclude_folders:
   - media
   - share
@@ -45,7 +46,8 @@ rsync_enabled: false
 |`remote_key`|No|The filename of the SSH key used for authentication with the `remote_host`. This file must be located in the `addon_configs/3490a758_remote_backup` directory of Home Assistant which can be accessed through SAMBA under the share name `addon_configs`|
 |`remote_host_key_algorithms`|No|Used for enabling legacy algorithms|
 |`backup_friendly_name`|No|Allows the snapshot to be renamed on the destination server to match the name in the Home Assistant UI|
-|`backup_custom_prefix`|No|Allows you to change the name prefixing the date of the snapshot, by default this is set to `Automated backup`|
+|`backup_custom_prefix`|No|Allows you to change the name prefixing the date of the snapshot, by default this is set to `Automated_backup`|
+|`backup_custom_delimiter`|No|Allows you to change the delimiter between the prefix and the date of the snapshot, by default this is set to `_`|
 |`backup_exclude_folders`|No|A list of folders to exclude from the backup. Valid folders include: `addons/local, homeassistant, media, share, ssl, all_addon_configs`|
 |`backup_exclude_addons`|No|A list of add-ons to exclude from the backup, based on add-on slug, which is the hostname with `-` replaced by `_`, e.g. `core_mariadb`|
 |`backup_keep_local`|No|Controls how many local backups you want to preserve on the Home Assistant host. The default (`all`) is to keep all local backups. To keep no local backups set this to `null` then all backups created will be removed after remote transfer. This can also be set with to a number to preserve only the specified amount|
